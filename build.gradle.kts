@@ -35,8 +35,10 @@ repositories {
 
 dependencies {
 	compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework:spring-web")
 	compile("org.jetbrains.kotlin:kotlin-stdlib")
 	compile("org.jetbrains.kotlin:kotlin-reflect")
 	testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("junit:junit")
 }
 
