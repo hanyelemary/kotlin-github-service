@@ -12,7 +12,7 @@ import org.mockito.Mockito.verify
 @RunWith(JUnitPlatform::class)
 object GitHubControllerTests : Spek({
     describe("GitHubController methods") {
-        given("") {
+        given("A GitHub username") {
             val githubService = mock(GitHubService::class.java)
             val githubController = GitHubController(gitHubService = githubService)
             val username = "hanyelemary"
